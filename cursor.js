@@ -2,7 +2,7 @@ var FauxDOMRequest = require('./request')
 
 function FauxDOMCursor () {
   FauxDOMRequest.call(this)
-  this.done = true
+  this.done = false
 }
 
 FauxDOMCursor.prototype.continue = function () {}

@@ -1,9 +1,8 @@
 function FauxDOMRequest () {
+  this.readyState = 'pending'
   this.error = null
-  this.result = null
-  this.readyState = 'done'
-  this.onsuccess = function () {}
-  this.onerror = function () {}
+  this.onsuccess = null
+  this.onerror = null
 }
 
 module.exports = FauxDOMRequest
