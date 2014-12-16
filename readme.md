@@ -1,5 +1,5 @@
 # faux-moz-dom
-At this point I’m not even sold on this being a good idea…
+At this point, I’m not even sold on this being a good idea…
 
 [![Build status](https://travis-ci.org/michaelrhodes/faux-moz-dom.png?branch=master)](https://travis-ci.org/michaelrhodes/faux-moz-dom)
 
