@@ -1,4 +1,4 @@
-var FauxDOMRequest = require('./request')
+var FauxDOMRequest = require('../request')
 
 function FauxDOMCursor () {
   FauxDOMRequest.call(this)

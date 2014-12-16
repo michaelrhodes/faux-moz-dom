@@ -1,0 +1,26 @@
+{
+  "name": "faux-moz-dom",
+  "version": "1.0.0",
+  "description": "Mock implementations of DOMRequest and DOMCursor for testing purposes.",
+  "main": "index.js",
+  "devDependencies": {
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "tape request/test.js && tape cursor/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelrhodes/faux-moz-dom.git"
+  },
+  "keywords": [
+    "FauxDOMRequest",
+    "FauxDOMCursor"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/faux-moz-dom/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/faux-moz-dom"
+}
